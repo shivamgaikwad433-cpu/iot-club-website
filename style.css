@@ -1,3 +1,18 @@
+:root {
+    --bg-main: #040007;
+    --bg-secondary: #0a0014;
+
+    --glass: rgba(139, 92, 246, 0.08);
+    --border: rgba(139, 92, 246, 0.25);
+
+    --text-main: #f4f1ff;
+    --text-secondary: #c7bfff;
+    --text-muted: #9a8fd0;
+
+    --accent: #8b5cf6;
+    --neon: #d946ef;
+}
+
 /* Global Reset */
 * {
     margin: 0;
@@ -28,7 +43,6 @@ body {
     letter-spacing: 0.25em; /* This is the secret to the luxury look */
     text-transform: uppercase;
     background: linear-gradient(to right, #fff, #94a3b8);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .logo-area p {
